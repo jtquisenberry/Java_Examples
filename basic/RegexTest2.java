@@ -13,10 +13,10 @@ public class RegexTest2{
 	
 	public static void main(String[] args) {
 
-        List<String> list;
+            List<String> list;
         
-        System.out.println("");
-        System.out.println(text);
+            System.out.println("");
+            System.out.println(text);
 	    list = getMatches(expression, text);
 	    System.out.println("-----------------------");
 	    System.out.println("Complete Match");
@@ -25,7 +25,7 @@ public class RegexTest2{
 	    printMatches(list, true);
 
 	    System.out.println("");
-        System.out.println(text);
+            System.out.println(text);
 	    list = getMatches(expression, text2);
 	    System.out.println("-----------------------");
 	    System.out.println("Complete Match");
@@ -34,7 +34,7 @@ public class RegexTest2{
 	    printMatches(list, true);
 	    
 	    System.out.println("");
-        System.out.println(text);
+            System.out.println(text);
 	    list = getMatches(expression2, text);
 	    System.out.println("-----------------------");
 	    System.out.println("Complete Match");	    
@@ -43,7 +43,7 @@ public class RegexTest2{
 	    printMatches(list, true);
 	    
 	    System.out.println("");
-        System.out.println(text);
+            System.out.println(text);
 	    list = getMatches(expression2, text2);
 	    System.out.println("-----------------------");
 	    System.out.println("Complete Match");	    
