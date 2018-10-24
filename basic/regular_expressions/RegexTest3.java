@@ -1,7 +1,7 @@
 import java.util.regex.*;
 import java.util.*;
 
-public class RegexTest2{
+public class RegexTest3{
 
 	
 	private static String expression = "(?:(SSN:|SSN).{0,5}(\\d{3}-\\d{2}-\\d{4}))|(?:(\\d{3}-\\d{2}-\\d{4}).{0,5}(SS#|SSN))";
@@ -13,10 +13,9 @@ public class RegexTest2{
 	
 	public static void main(String[] args) {
 
-            List<String> list;
-        
-            System.out.println("");
-            System.out.println(text);
+        List<String> list;
+        System.out.println("");
+        System.out.println(text);
 	    list = getMatches(expression, text);
 	    System.out.println("-----------------------");
 	    System.out.println("Complete Match");
@@ -25,7 +24,7 @@ public class RegexTest2{
 	    printMatches(list, true);
 
 	    System.out.println("");
-            System.out.println(text);
+        System.out.println(text);
 	    list = getMatches(expression, text2);
 	    System.out.println("-----------------------");
 	    System.out.println("Complete Match");
@@ -34,7 +33,7 @@ public class RegexTest2{
 	    printMatches(list, true);
 	    
 	    System.out.println("");
-            System.out.println(text);
+        System.out.println(text);
 	    list = getMatches(expression2, text);
 	    System.out.println("-----------------------");
 	    System.out.println("Complete Match");	    
@@ -43,7 +42,7 @@ public class RegexTest2{
 	    printMatches(list, true);
 	    
 	    System.out.println("");
-            System.out.println(text);
+        System.out.println(text);
 	    list = getMatches(expression2, text2);
 	    System.out.println("-----------------------");
 	    System.out.println("Complete Match");	    
@@ -68,7 +67,6 @@ public class RegexTest2{
 		    p = Pattern.compile(expression);
 		    m = p.matcher(text);
 		    
-		    String result = "";
 		    while (m.find()){
 
     			int i = 0;
