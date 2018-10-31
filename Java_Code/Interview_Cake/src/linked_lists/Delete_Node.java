@@ -1,3 +1,4 @@
+package linked_lists;
 import org.junit.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
@@ -111,7 +112,7 @@ public class Delete_Node {
     }
 
     public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(Solution.class);
+        Result result = JUnitCore.runClasses(Delete_Node.class);
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());
         }

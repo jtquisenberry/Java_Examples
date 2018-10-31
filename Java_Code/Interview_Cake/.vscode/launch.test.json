@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "linked_lists",
+                "projectName": "linked_lists",
+                "workingDirectory": "e:\\Development\\Git\\Java_Examples\\eclipse001\\linked_lists",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "linked_lists",
+                "projectName": "linked_lists",
+                "workingDirectory": "e:\\Development\\Git\\Java_Examples\\eclipse001\\linked_lists",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

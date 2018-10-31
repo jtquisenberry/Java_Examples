@@ -1,7 +1,8 @@
+package regular_expressions;
 import java.util.regex.*;
 import java.util.*;
 
-public class RegexTest3{
+public class Regex_Capturing_Groups{
 
 	
 	private static String expression = "(?:(SSN:|SSN).{0,5}(\\d{3}-\\d{2}-\\d{4}))|(?:(\\d{3}-\\d{2}-\\d{4}).{0,5}(SS#|SSN))";

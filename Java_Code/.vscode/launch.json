@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Regex_Capturing_Groups",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "regular_expressions.Regex_Capturing_Groups",
+            "args": "",
+            "projectName": "Basic"
+        }
+    ]
+}

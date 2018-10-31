@@ -1,0 +1,48 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "Interview_Cake",
+                "projectName": "Interview_Cake",
+                "workingDirectory": "e:\\Development\\Git\\Java_Examples\\Java_Code\\Interview_Cake",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "Basic",
+                "projectName": "Basic",
+                "workingDirectory": "e:\\Development\\Git\\Java_Examples\\Java_Code\\Basic",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "Interview_Cake",
+                "projectName": "Interview_Cake",
+                "workingDirectory": "e:\\Development\\Git\\Java_Examples\\Java_Code\\Interview_Cake",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "Basic",
+                "projectName": "Basic",
+                "workingDirectory": "e:\\Development\\Git\\Java_Examples\\Java_Code\\Basic",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
