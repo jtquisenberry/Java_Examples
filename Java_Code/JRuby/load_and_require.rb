@@ -6,6 +6,8 @@
 # org.jruby.runtime.load
 # Class LoadService
 
+puts "Cows"
+
 
 
 
